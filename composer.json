@@ -1,0 +1,39 @@
+{
+    "name": "ahsanabrar/pyramid",
+    "description": "Pyramid is based on reusable plug and play system.",
+    "keywords": [
+        "laravel",
+        "admin"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Ahsan Abrar",
+            "email": "iahsanabrar@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "illuminate/support": "^6.0 | ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pyramid\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pyramid\\PyramidCoreServiceProvider"
+            ],
+            "aliases": {
+                "Pyramid": "Pyramid\\Pyramid"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
