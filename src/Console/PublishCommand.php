@@ -11,7 +11,7 @@ class PublishCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'pyramid:publish'
+    protected $signature = 'pyramid:publish';
 
     /**
      * The console command description.
